@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		370D49CC1D3EE4E90069C131 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D49CB1D3EE4E90069C131 /* AppDelegate.swift */; };
+		370D49CE1D3EE4E90069C131 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D49CD1D3EE4E90069C131 /* ViewController.swift */; };
+		370D49D11D3EE4E90069C131 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370D49CF1D3EE4E90069C131 /* Main.storyboard */; };
+		370D49D31D3EE4E90069C131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370D49D21D3EE4E90069C131 /* Assets.xcassets */; };
+		370D49D61D3EE4E90069C131 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370D49D41D3EE4E90069C131 /* LaunchScreen.storyboard */; };
+		37CD20D91D41806A006D3864 /* DragGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CD20D81D41806A006D3864 /* DragGestureRecognizer.swift */; };
+		37EF7C091D3EE77600C66BCA /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370D49E71D3EE5110069C131 /* Starscream.framework */; };
+		37EF7C0A1D3EE77600C66BCA /* Starscream.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 370D49E71D3EE5110069C131 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		370D49E61D3EE5110069C131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370D49DD1D3EE5110069C131 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6B3E79E619D48B7F006071F7;
+			remoteInfo = "Starscream iOS";
+		};
+		370D49E81D3EE5110069C131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370D49DD1D3EE5110069C131 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6B3E79F119D48B7F006071F7;
+			remoteInfo = "Starscream iOSTests";
+		};
+		370D49EA1D3EE5110069C131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370D49DD1D3EE5110069C131 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9C3E35F19E48FF1009FC285;
+			remoteInfo = "Starscream OSX";
+		};
+		370D49EC1D3EE5110069C131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370D49DD1D3EE5110069C131 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9C3E36919E48FF1009FC285;
+			remoteInfo = "Starscream OSXTests";
+		};
+		370D49EE1D3EE5110069C131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370D49DD1D3EE5110069C131 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 091277971BD673A70003036D;
+			remoteInfo = "Starscream tvOS";
+		};
+		370D49F01D3EE5110069C131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370D49DD1D3EE5110069C131 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 091277A01BD673A70003036D;
+			remoteInfo = "Starscream tvOSTests";
+		};
+		37EF7C061D3EE76D00C66BCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370D49DD1D3EE5110069C131 /* Starscream.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B3E79E519D48B7F006071F7;
+			remoteInfo = "Starscream iOS";
+		};
+		37EF7C0B1D3EE77600C66BCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370D49DD1D3EE5110069C131 /* Starscream.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B3E79E519D48B7F006071F7;
+			remoteInfo = "Starscream iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		37EF7C0D1D3EE77600C66BCA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				37EF7C0A1D3EE77600C66BCA /* Starscream.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		370D49C81D3EE4E90069C131 /* ipad-mouse-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ipad-mouse-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		370D49CB1D3EE4E90069C131 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		370D49CD1D3EE4E90069C131 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		370D49D01D3EE4E90069C131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		370D49D21D3EE4E90069C131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		370D49D51D3EE4E90069C131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		370D49D71D3EE4E90069C131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		370D49DD1D3EE5110069C131 /* Starscream.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Starscream.xcodeproj; path = Carthage/Checkouts/Starscream/Starscream.xcodeproj; sourceTree = "<group>"; };
+		37CD20D21D418032006D3864 /* ipad-mouse-ios-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ipad-mouse-ios-Bridging-Header.h"; path = "ipad-mouse-ios/ipad-mouse-ios-Bridging-Header.h"; sourceTree = "<group>"; };
+		37CD20D81D41806A006D3864 /* DragGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragGestureRecognizer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		370D49C51D3EE4E90069C131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EF7C091D3EE77600C66BCA /* Starscream.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		370D49BF1D3EE4E90069C131 = {
+			isa = PBXGroup;
+			children = (
+				370D49DD1D3EE5110069C131 /* Starscream.xcodeproj */,
+				370D49CA1D3EE4E90069C131 /* ipad-mouse-ios */,
+				370D49C91D3EE4E90069C131 /* Products */,
+				37CD20D21D418032006D3864 /* ipad-mouse-ios-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		370D49C91D3EE4E90069C131 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				370D49C81D3EE4E90069C131 /* ipad-mouse-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		370D49CA1D3EE4E90069C131 /* ipad-mouse-ios */ = {
+			isa = PBXGroup;
+			children = (
+				370D49CB1D3EE4E90069C131 /* AppDelegate.swift */,
+				37CD20D81D41806A006D3864 /* DragGestureRecognizer.swift */,
+				370D49CD1D3EE4E90069C131 /* ViewController.swift */,
+				370D49CF1D3EE4E90069C131 /* Main.storyboard */,
+				370D49D21D3EE4E90069C131 /* Assets.xcassets */,
+				370D49D41D3EE4E90069C131 /* LaunchScreen.storyboard */,
+				370D49D71D3EE4E90069C131 /* Info.plist */,
+			);
+			path = "ipad-mouse-ios";
+			sourceTree = "<group>";
+		};
+		370D49DE1D3EE5110069C131 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				370D49E71D3EE5110069C131 /* Starscream.framework */,
+				370D49E91D3EE5110069C131 /* Starscream iOSTests.xctest */,
+				370D49EB1D3EE5110069C131 /* Starscream.framework */,
+				370D49ED1D3EE5110069C131 /* Starscream OSXTests.xctest */,
+				370D49EF1D3EE5110069C131 /* Starscream.framework */,
+				370D49F11D3EE5110069C131 /* Starscream tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		370D49C71D3EE4E90069C131 /* ipad-mouse-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370D49DA1D3EE4E90069C131 /* Build configuration list for PBXNativeTarget "ipad-mouse-ios" */;
+			buildPhases = (
+				370D49C41D3EE4E90069C131 /* Sources */,
+				370D49C51D3EE4E90069C131 /* Frameworks */,
+				370D49C61D3EE4E90069C131 /* Resources */,
+				37EF7C0D1D3EE77600C66BCA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37EF7C071D3EE76D00C66BCA /* PBXTargetDependency */,
+				37EF7C0C1D3EE77600C66BCA /* PBXTargetDependency */,
+			);
+			name = "ipad-mouse-ios";
+			productName = "ipad-mouse-ios";
+			productReference = 370D49C81D3EE4E90069C131 /* ipad-mouse-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		370D49C01D3EE4E90069C131 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = dvappel;
+				TargetAttributes = {
+					370D49C71D3EE4E90069C131 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = M3QL4363UT;
+						DevelopmentTeamName = "Maria Krutyanskaya";
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 370D49C31D3EE4E90069C131 /* Build configuration list for PBXProject "ipad-mouse-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 370D49BF1D3EE4E90069C131;
+			productRefGroup = 370D49C91D3EE4E90069C131 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 370D49DE1D3EE5110069C131 /* Products */;
+					ProjectRef = 370D49DD1D3EE5110069C131 /* Starscream.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				370D49C71D3EE4E90069C131 /* ipad-mouse-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		370D49E71D3EE5110069C131 /* Starscream.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Starscream.framework;
+			remoteRef = 370D49E61D3EE5110069C131 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		370D49E91D3EE5110069C131 /* Starscream iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Starscream iOSTests.xctest";
+			remoteRef = 370D49E81D3EE5110069C131 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		370D49EB1D3EE5110069C131 /* Starscream.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Starscream.framework;
+			remoteRef = 370D49EA1D3EE5110069C131 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		370D49ED1D3EE5110069C131 /* Starscream OSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Starscream OSXTests.xctest";
+			remoteRef = 370D49EC1D3EE5110069C131 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		370D49EF1D3EE5110069C131 /* Starscream.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Starscream.framework;
+			remoteRef = 370D49EE1D3EE5110069C131 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		370D49F11D3EE5110069C131 /* Starscream tvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Starscream tvOSTests.xctest";
+			remoteRef = 370D49F01D3EE5110069C131 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		370D49C61D3EE4E90069C131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370D49D61D3EE4E90069C131 /* LaunchScreen.storyboard in Resources */,
+				370D49D31D3EE4E90069C131 /* Assets.xcassets in Resources */,
+				370D49D11D3EE4E90069C131 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		370D49C41D3EE4E90069C131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370D49CE1D3EE4E90069C131 /* ViewController.swift in Sources */,
+				370D49CC1D3EE4E90069C131 /* AppDelegate.swift in Sources */,
+				37CD20D91D41806A006D3864 /* DragGestureRecognizer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37EF7C071D3EE76D00C66BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Starscream iOS";
+			targetProxy = 37EF7C061D3EE76D00C66BCA /* PBXContainerItemProxy */;
+		};
+		37EF7C0C1D3EE77600C66BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Starscream iOS";
+			targetProxy = 37EF7C0B1D3EE77600C66BCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		370D49CF1D3EE4E90069C131 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				370D49D01D3EE4E90069C131 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		370D49D41D3EE4E90069C131 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				370D49D51D3EE4E90069C131 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		370D49D81D3EE4E90069C131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		370D49D91D3EE4E90069C131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		370D49DB1D3EE4E90069C131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "ipad-mouse-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.dvappel.ipad-mouse-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ipad-mouse-ios/ipad-mouse-ios-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		370D49DC1D3EE4E90069C131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "ipad-mouse-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.dvappel.ipad-mouse-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ipad-mouse-ios/ipad-mouse-ios-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		370D49C31D3EE4E90069C131 /* Build configuration list for PBXProject "ipad-mouse-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370D49D81D3EE4E90069C131 /* Debug */,
+				370D49D91D3EE4E90069C131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370D49DA1D3EE4E90069C131 /* Build configuration list for PBXNativeTarget "ipad-mouse-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370D49DB1D3EE4E90069C131 /* Debug */,
+				370D49DC1D3EE4E90069C131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 370D49C01D3EE4E90069C131 /* Project object */;
+}
