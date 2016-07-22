@@ -20,7 +20,7 @@ To run the client application, you need Xcode 8 Beta 2. You also need to fetch t
 To run the server either use a precompiled binary or build from source.
 
 #### Precompiled Binary
-Download and run the binary for the [latest release](https://github.com/Danappelxx/iPadMouse/releases).
+Download the binary for the [latest release](https://github.com/Danappelxx/iPadMouse/releases) and CD into the downloads directory. Run `chmod +x ipad-mouse` and then `./ipad-mouse` to start the server.
 
 #### Build from Source
 You need to be able to build code compatible with the 05-09 snapshot with the OSX SDK. For me, the following options work:
