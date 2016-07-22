@@ -3,6 +3,12 @@ An iOS app + server which allows you to use your iPad as a graphics tablet. Late
 
 [![Demonstration](https://img.youtube.com/vi/tTHTx4MMwg4/0.jpg)](https://www.youtube.com/watch?v=tTHTx4MMwg4 "iPad Mouse Demo")
 
+## Features
+- Single tap to left click
+- Double tap to double left click
+- Single tap + movement to move mouse
+- Double tap + movement to move mouse with left gclick
+
 ## Dependencies
 Uses [StarScream](https://github.com/daltoniam/Starscream) as the WebSocket client, and [Zewo/WebSocketServer](https://github.com/Zewo/WebSocketServer) as the WebSocket server.
 
@@ -21,9 +27,4 @@ Ensure that both of your devices are connected to the same WiFi network.
 
 Replace the [`ip` constant](https://github.com/Danappelxx/iPadMouse/blob/master/ipad-mouse-ios/ViewController.swift#L14) with your mac's ip address in the local network. You can find this by running `ifconfig | grep netmask`. For my machine, it is `192.168.1.132`.
 
-Run the iOS app on your device and wait for it to connect. Once connected, you can perform the following gestures:
-
-- Single tap = left click
-- Double tap = double left click
-- Single tap + movement = move mouse
-- Double tap + movement = move mouse with left click
+Run the iOS app on your device and wait for it to connect.
