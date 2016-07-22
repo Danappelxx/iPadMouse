@@ -10,11 +10,11 @@ An iOS+OSX app that allows you to use your iPad (or any iOS device) as a graphic
 - Double tap + movement to move mouse with left gclick
 
 ## Dependencies
-Uses [StarScream](https://github.com/daltoniam/Starscream) as the WebSocket client, and [Zewo/WebSocketServer](https://github.com/Zewo/WebSocketServer) as the WebSocket server.
+Uses [StarScream](https://github.com/daltoniam/Starscream) as the WebSocket client, and [Zewo/WebSocketServer](https://github.com/Zewo/WebSocketServer) as the WebSocket server. You can fetch these using `carthage bootstrap --no-build` and `swift build -X`, respectively.
 
 ## Setup
 ### Client
-To run the client application, you need Xcode 8 Beta 2. You also need to fetch the dependencies, `carthage bootstrap --no-build`. Then, the app should build on any iOS device (tested on iOS 10 iPad Pro).
+To run the client application, you need to open the xcode project in Xcode 8 Beta 2. Then, the app should run on any iOS device (tested on iOS 10 iPad Pro).
 
 ### Server
 To run the server either use a precompiled binary or build from source.
