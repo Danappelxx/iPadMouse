@@ -1,5 +1,5 @@
 # iPad Mouse
-An iOS app + server which allows you to use your iPad as a graphics tablet. Latency is minimal due to the use of WebSockets over a direct WiFi connection.
+An iOS+OSX app that allows you to use your iPad (or any iOS device) as a graphics tablet. Latency is minimal due to the use of WebSockets over a direct WiFi connection.
 
 [![Demonstration](https://img.youtube.com/vi/tTHTx4MMwg4/0.jpg)](https://www.youtube.com/watch?v=tTHTx4MMwg4 "iPad Mouse Demo")
 
@@ -17,7 +17,13 @@ Uses [StarScream](https://github.com/daltoniam/Starscream) as the WebSocket clie
 To run the client application, you need Xcode 8 Beta 2. You also need to fetch the dependencies, `carthage bootstrap --no-build`. Then, the app should build on any iOS device (tested on iOS 10 iPad Pro).
 
 ### Server
-To run the server, you need to be able to build code compatible with the 05-09 snapshot with the OSX SDK. For me, the following options work:
+To run the server either use a precompiled binary or build from source.
+
+#### Precompiled Binary
+Download and run the binary for the [latest release](https://github.com/Danappelxx/iPadMouse/releases).
+
+#### Build from Source
+You need to be able to build code compatible with the 05-09 snapshot with the OSX SDK. For me, the following options work:
 
 - Generate the Xcode project with `swift build -X` and open it using Xcode 7.3.1 with the 05-09 snapshot selected
 - Have Xcode 8 Beta 1 selected using `xcode-select` and run `xcrun --sdk macosx swift build` in the command line
