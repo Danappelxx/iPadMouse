@@ -1,7 +1,7 @@
 # iPad Mouse
 An iOS app + server which allows you to use your iPad as a graphics tablet. Latency is minimal due to the use of WebSockets over a direct WiFi connection.
 
-> TODO: Add Usage GIF
+[![Demonstration](https://img.youtube.com/vi/tTHTx4MMwg4/0.jpg)](https://www.youtube.com/watch?v=tTHTx4MMwg4 "iPad Mouse Demo")
 
 ## Dependencies
 Uses [StarScream](https://github.com/daltoniam/Starscream) as the WebSocket client, and [Zewo/WebSocketServer](https://github.com/Zewo/WebSocketServer) as the WebSocket server.
